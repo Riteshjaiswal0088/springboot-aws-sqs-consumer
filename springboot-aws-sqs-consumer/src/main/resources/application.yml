@@ -1,0 +1,22 @@
+server:
+  port: 9090
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+    end-point:
+      uri: https://sqs.ap-south-1.amazonaws.com/748701809506/javalearn-queue
+    stack:
+      auto: false
+application:
+  bucket:
+    name: javalearns3bucket
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
