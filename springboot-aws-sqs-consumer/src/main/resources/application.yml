@@ -7,7 +7,7 @@ cloud:
       auto: false
     credentials:
     end-point:
-      uri: https://sqs.ap-south-1.amazonaws.com/748701809506/javalearn-queue
+      uri:
     stack:
       auto: false
 application:
