@@ -12,7 +12,7 @@ cloud:
       auto: false
 application:
   bucket:
-    name: javalearns3bucket
+    name: javalearns3bucketRitesh
 spring:
   servlet:
     multipart:
